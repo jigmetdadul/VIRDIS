@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		160994EC29EC021C00222363 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160994EB29EC021C00222363 /* MainController.swift */; };
+		166852102A1B50CA003ABC97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1668520F2A1B50CA003ABC97 /* GoogleService-Info.plist */; };
+		16A49C5329EB284B00285858 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A49C5229EB284B00285858 /* AppDelegate.swift */; };
+		16A49C5529EB284B00285858 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A49C5429EB284B00285858 /* SceneDelegate.swift */; };
+		16A49C5729EB284B00285858 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A49C5629EB284B00285858 /* ViewController.swift */; };
+		16A49C5A29EB284B00285858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A49C5829EB284B00285858 /* Main.storyboard */; };
+		16A49C5C29EB284D00285858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16A49C5B29EB284D00285858 /* Assets.xcassets */; };
+		16A49C5F29EB284D00285858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A49C5D29EB284D00285858 /* LaunchScreen.storyboard */; };
+		16A49C6A29EB284D00285858 /* viridis_beta2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A49C6929EB284D00285858 /* viridis_beta2Tests.swift */; };
+		16A49C7429EB284D00285858 /* viridis_beta2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A49C7329EB284D00285858 /* viridis_beta2UITests.swift */; };
+		16A49C7629EB284D00285858 /* viridis_beta2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A49C7529EB284D00285858 /* viridis_beta2UITestsLaunchTests.swift */; };
+		16A49C8729EB47E100285858 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 16A49C8629EB47E100285858 /* FirebaseAuth */; };
+		16A49C8929EB47E100285858 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 16A49C8829EB47E100285858 /* FirebaseFirestore */; };
+		16A49C8B29EB47E100285858 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 16A49C8A29EB47E100285858 /* FirebaseFirestoreSwift */; };
+		16A49C8D29EB48EF00285858 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A49C8C29EB48EF00285858 /* LoginController.swift */; };
+		16A49C8F29EB490500285858 /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A49C8E29EB490500285858 /* SignupController.swift */; };
+		16A49C9329EB58CB00285858 /* CarbonFootprintManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A49C9229EB58CB00285858 /* CarbonFootprintManager.swift */; };
+		16AF396A29F1123300486A10 /* CarTravelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AF396929F1123300486A10 /* CarTravelController.swift */; };
+		16AF396C29F13AE800486A10 /* FlightTravelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AF396B29F13AE800486A10 /* FlightTravelController.swift */; };
+		16ED2B3829EC799200A49C89 /* CarbonFootprintModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ED2B3729EC799200A49C89 /* CarbonFootprintModel.swift */; };
+		16ED2B3A29EC7BD300A49C89 /* CarbonFootprintData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ED2B3929EC7BD300A49C89 /* CarbonFootprintData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16A49C6629EB284D00285858 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16A49C4729EB284B00285858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16A49C4E29EB284B00285858;
+			remoteInfo = viridis_beta2;
+		};
+		16A49C7029EB284D00285858 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16A49C4729EB284B00285858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16A49C4E29EB284B00285858;
+			remoteInfo = viridis_beta2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		160994EB29EC021C00222363 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		1668520F2A1B50CA003ABC97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		16A49C4F29EB284B00285858 /* viridis_beta2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viridis_beta2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A49C5229EB284B00285858 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16A49C5429EB284B00285858 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		16A49C5629EB284B00285858 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16A49C5929EB284B00285858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16A49C5B29EB284D00285858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16A49C5E29EB284D00285858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16A49C6029EB284D00285858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16A49C6529EB284D00285858 /* viridis_beta2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viridis_beta2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A49C6929EB284D00285858 /* viridis_beta2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viridis_beta2Tests.swift; sourceTree = "<group>"; };
+		16A49C6F29EB284D00285858 /* viridis_beta2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viridis_beta2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A49C7329EB284D00285858 /* viridis_beta2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viridis_beta2UITests.swift; sourceTree = "<group>"; };
+		16A49C7529EB284D00285858 /* viridis_beta2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viridis_beta2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		16A49C8C29EB48EF00285858 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		16A49C8E29EB490500285858 /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		16A49C9229EB58CB00285858 /* CarbonFootprintManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonFootprintManager.swift; sourceTree = "<group>"; };
+		16AF396929F1123300486A10 /* CarTravelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTravelController.swift; sourceTree = "<group>"; };
+		16AF396B29F13AE800486A10 /* FlightTravelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTravelController.swift; sourceTree = "<group>"; };
+		16ED2B3729EC799200A49C89 /* CarbonFootprintModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonFootprintModel.swift; sourceTree = "<group>"; };
+		16ED2B3929EC7BD300A49C89 /* CarbonFootprintData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonFootprintData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16A49C4C29EB284B00285858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A49C8729EB47E100285858 /* FirebaseAuth in Frameworks */,
+				16A49C8929EB47E100285858 /* FirebaseFirestore in Frameworks */,
+				16A49C8B29EB47E100285858 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A49C6229EB284D00285858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A49C6C29EB284D00285858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16A49C4629EB284B00285858 = {
+			isa = PBXGroup;
+			children = (
+				16A49C5129EB284B00285858 /* viridis_beta2 */,
+				16A49C6829EB284D00285858 /* viridis_beta2Tests */,
+				16A49C7229EB284D00285858 /* viridis_beta2UITests */,
+				16A49C5029EB284B00285858 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16A49C5029EB284B00285858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16A49C4F29EB284B00285858 /* viridis_beta2.app */,
+				16A49C6529EB284D00285858 /* viridis_beta2Tests.xctest */,
+				16A49C6F29EB284D00285858 /* viridis_beta2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16A49C5129EB284B00285858 /* viridis_beta2 */ = {
+			isa = PBXGroup;
+			children = (
+				16A49C5229EB284B00285858 /* AppDelegate.swift */,
+				16A49C5429EB284B00285858 /* SceneDelegate.swift */,
+				16A49C8329EB297200285858 /* Model */,
+				16A49C8229EB294C00285858 /* Controller */,
+				16A49C8429EB2A7E00285858 /* View */,
+				16A49C5B29EB284D00285858 /* Assets.xcassets */,
+				16A49C5D29EB284D00285858 /* LaunchScreen.storyboard */,
+				16A49C6029EB284D00285858 /* Info.plist */,
+				1668520F2A1B50CA003ABC97 /* GoogleService-Info.plist */,
+			);
+			path = viridis_beta2;
+			sourceTree = "<group>";
+		};
+		16A49C6829EB284D00285858 /* viridis_beta2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				16A49C6929EB284D00285858 /* viridis_beta2Tests.swift */,
+			);
+			path = viridis_beta2Tests;
+			sourceTree = "<group>";
+		};
+		16A49C7229EB284D00285858 /* viridis_beta2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				16A49C7329EB284D00285858 /* viridis_beta2UITests.swift */,
+				16A49C7529EB284D00285858 /* viridis_beta2UITestsLaunchTests.swift */,
+			);
+			path = viridis_beta2UITests;
+			sourceTree = "<group>";
+		};
+		16A49C8229EB294C00285858 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				16A49C5629EB284B00285858 /* ViewController.swift */,
+				16A49C8C29EB48EF00285858 /* LoginController.swift */,
+				16A49C8E29EB490500285858 /* SignupController.swift */,
+				160994EB29EC021C00222363 /* MainController.swift */,
+				16AF396929F1123300486A10 /* CarTravelController.swift */,
+				16AF396B29F13AE800486A10 /* FlightTravelController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		16A49C8329EB297200285858 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16A49C9229EB58CB00285858 /* CarbonFootprintManager.swift */,
+				16ED2B3729EC799200A49C89 /* CarbonFootprintModel.swift */,
+				16ED2B3929EC7BD300A49C89 /* CarbonFootprintData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16A49C8429EB2A7E00285858 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				16A49C5829EB284B00285858 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16A49C4E29EB284B00285858 /* viridis_beta2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A49C7929EB284D00285858 /* Build configuration list for PBXNativeTarget "viridis_beta2" */;
+			buildPhases = (
+				16A49C4B29EB284B00285858 /* Sources */,
+				16A49C4C29EB284B00285858 /* Frameworks */,
+				16A49C4D29EB284B00285858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = viridis_beta2;
+			packageProductDependencies = (
+				16A49C8629EB47E100285858 /* FirebaseAuth */,
+				16A49C8829EB47E100285858 /* FirebaseFirestore */,
+				16A49C8A29EB47E100285858 /* FirebaseFirestoreSwift */,
+			);
+			productName = viridis_beta2;
+			productReference = 16A49C4F29EB284B00285858 /* viridis_beta2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16A49C6429EB284D00285858 /* viridis_beta2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A49C7C29EB284D00285858 /* Build configuration list for PBXNativeTarget "viridis_beta2Tests" */;
+			buildPhases = (
+				16A49C6129EB284D00285858 /* Sources */,
+				16A49C6229EB284D00285858 /* Frameworks */,
+				16A49C6329EB284D00285858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16A49C6729EB284D00285858 /* PBXTargetDependency */,
+			);
+			name = viridis_beta2Tests;
+			productName = viridis_beta2Tests;
+			productReference = 16A49C6529EB284D00285858 /* viridis_beta2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16A49C6E29EB284D00285858 /* viridis_beta2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A49C7F29EB284D00285858 /* Build configuration list for PBXNativeTarget "viridis_beta2UITests" */;
+			buildPhases = (
+				16A49C6B29EB284D00285858 /* Sources */,
+				16A49C6C29EB284D00285858 /* Frameworks */,
+				16A49C6D29EB284D00285858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16A49C7129EB284D00285858 /* PBXTargetDependency */,
+			);
+			name = viridis_beta2UITests;
+			productName = viridis_beta2UITests;
+			productReference = 16A49C6F29EB284D00285858 /* viridis_beta2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16A49C4729EB284B00285858 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					16A49C4E29EB284B00285858 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					16A49C6429EB284D00285858 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 16A49C4E29EB284B00285858;
+					};
+					16A49C6E29EB284D00285858 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 16A49C4E29EB284B00285858;
+					};
+				};
+			};
+			buildConfigurationList = 16A49C4A29EB284B00285858 /* Build configuration list for PBXProject "viridis_beta2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16A49C4629EB284B00285858;
+			packageReferences = (
+				16A49C8529EB47E100285858 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 16A49C5029EB284B00285858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16A49C4E29EB284B00285858 /* viridis_beta2 */,
+				16A49C6429EB284D00285858 /* viridis_beta2Tests */,
+				16A49C6E29EB284D00285858 /* viridis_beta2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16A49C4D29EB284B00285858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A49C5F29EB284D00285858 /* LaunchScreen.storyboard in Resources */,
+				166852102A1B50CA003ABC97 /* GoogleService-Info.plist in Resources */,
+				16A49C5C29EB284D00285858 /* Assets.xcassets in Resources */,
+				16A49C5A29EB284B00285858 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A49C6329EB284D00285858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A49C6D29EB284D00285858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16A49C4B29EB284B00285858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16ED2B3829EC799200A49C89 /* CarbonFootprintModel.swift in Sources */,
+				16A49C5729EB284B00285858 /* ViewController.swift in Sources */,
+				160994EC29EC021C00222363 /* MainController.swift in Sources */,
+				16AF396C29F13AE800486A10 /* FlightTravelController.swift in Sources */,
+				16A49C8D29EB48EF00285858 /* LoginController.swift in Sources */,
+				16A49C9329EB58CB00285858 /* CarbonFootprintManager.swift in Sources */,
+				16AF396A29F1123300486A10 /* CarTravelController.swift in Sources */,
+				16A49C5329EB284B00285858 /* AppDelegate.swift in Sources */,
+				16A49C8F29EB490500285858 /* SignupController.swift in Sources */,
+				16ED2B3A29EC7BD300A49C89 /* CarbonFootprintData.swift in Sources */,
+				16A49C5529EB284B00285858 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A49C6129EB284D00285858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A49C6A29EB284D00285858 /* viridis_beta2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A49C6B29EB284D00285858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A49C7629EB284D00285858 /* viridis_beta2UITestsLaunchTests.swift in Sources */,
+				16A49C7429EB284D00285858 /* viridis_beta2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16A49C6729EB284D00285858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16A49C4E29EB284B00285858 /* viridis_beta2 */;
+			targetProxy = 16A49C6629EB284D00285858 /* PBXContainerItemProxy */;
+		};
+		16A49C7129EB284D00285858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16A49C4E29EB284B00285858 /* viridis_beta2 */;
+			targetProxy = 16A49C7029EB284D00285858 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16A49C5829EB284B00285858 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16A49C5929EB284B00285858 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16A49C5D29EB284D00285858 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16A49C5E29EB284D00285858 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16A49C7729EB284D00285858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16A49C7829EB284D00285858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16A49C7A29EB284D00285858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XVV6L89S5W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = viridis_beta2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jigmet.viridis-beta2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16A49C7B29EB284D00285858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XVV6L89S5W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = viridis_beta2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jigmet.viridis-beta2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16A49C7D29EB284D00285858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jigmet.viridis-beta2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/viridis_beta2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/viridis_beta2";
+			};
+			name = Debug;
+		};
+		16A49C7E29EB284D00285858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jigmet.viridis-beta2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/viridis_beta2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/viridis_beta2";
+			};
+			name = Release;
+		};
+		16A49C8029EB284D00285858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jigmet.viridis-beta2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = viridis_beta2;
+			};
+			name = Debug;
+		};
+		16A49C8129EB284D00285858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jigmet.viridis-beta2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = viridis_beta2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16A49C4A29EB284B00285858 /* Build configuration list for PBXProject "viridis_beta2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A49C7729EB284D00285858 /* Debug */,
+				16A49C7829EB284D00285858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16A49C7929EB284D00285858 /* Build configuration list for PBXNativeTarget "viridis_beta2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A49C7A29EB284D00285858 /* Debug */,
+				16A49C7B29EB284D00285858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16A49C7C29EB284D00285858 /* Build configuration list for PBXNativeTarget "viridis_beta2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A49C7D29EB284D00285858 /* Debug */,
+				16A49C7E29EB284D00285858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16A49C7F29EB284D00285858 /* Build configuration list for PBXNativeTarget "viridis_beta2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A49C8029EB284D00285858 /* Debug */,
+				16A49C8129EB284D00285858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		16A49C8529EB47E100285858 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		16A49C8629EB47E100285858 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16A49C8529EB47E100285858 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		16A49C8829EB47E100285858 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16A49C8529EB47E100285858 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		16A49C8A29EB47E100285858 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16A49C8529EB47E100285858 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 16A49C4729EB284B00285858 /* Project object */;
+}
