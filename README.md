@@ -37,7 +37,7 @@
 
 </td><td valign="top" width="50%">
 
-<img src="https:
+
 
 </td></tr></table>  
 
